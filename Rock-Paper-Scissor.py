@@ -20,17 +20,17 @@ while True:
 			print('Draw')
 
 	else:
-			if 'Scissor' in Player:
+			if 'Scissor'.lower in Player:
 				if Computer == 'Paper':
 					print('You Win')
 				else:
 					print('You Lose')
-			elif Player == 'Rock':
+			elif Player == 'Rock'.lower:
 				if Computer == 'Paper':
 					print('You Lose')
 				else:
 					print('You Win')
-			elif Player == 'Paper':
+			elif Player == 'Paper'.lower:
 				if Computer == 'Rock':
 					print('You Lose')
 				else:
